@@ -10,7 +10,9 @@ import About from "@/components/about"
 import Experience from "@/components/experience"
 import Projects from "@/components/projects"
 import Skills from "@/components/skills"
+import Education from "@/components/education"
 import Footer from "@/components/footer"
+import Publications from "@/components/publications"
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState("about")
@@ -19,6 +21,8 @@ export default function Home() {
   const experienceRef = useRef<HTMLDivElement>(null)
   const projectsRef = useRef<HTMLDivElement>(null)
   const skillsRef = useRef<HTMLDivElement>(null)
+  const educationRef = useRef<HTMLDivElement>(null)
+  const publicationsRef = useRef<HTMLDivElement>(null)
 
   const handleNavigation = (section: string) => {
     setActiveSection(section)
@@ -28,6 +32,8 @@ export default function Home() {
       experience: experienceRef,
       projects: projectsRef,
       skills: skillsRef,
+      education: educationRef,
+      publications: publicationsRef,
     }
 
     const targetRef = refs[section]
@@ -52,6 +58,12 @@ export default function Home() {
         </div>
         <div ref={skillsRef}>
           <Skills />
+        </div>
+        <div ref={educationRef}>
+          <Education />
+        </div>
+        <div ref={publicationsRef}>
+          <Publications />
         </div>
         <Footer />
       </main>

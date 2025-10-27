@@ -36,12 +36,12 @@ export default function Experience() {
       ],
     },
     {
-      title: "IT - Maintenance and Support",
+      title: "IT - Database and Support",
       company: "Indian Oil Corporation Limited",
       period: "January 2017 - May 2018",
       highlights: [
         "Worked on the Pradhan Mantri Ujjwala Yojna Project (PMUY), managing operations for Bihar and Jharkhand regions",
-        "Handled problem troubleshooting and technical support for distributor-customer relationship management systems",
+        "Handled problem troubleshooting and technical support for distributor-customer relationship management systems with its databases",
         "Contributed to the development team at IOCL Mumbai Branch, working on internal software solutions for various states across India",
       ],
     },

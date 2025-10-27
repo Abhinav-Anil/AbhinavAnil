@@ -12,7 +12,7 @@ export default function Publications() {
       links: [
         {
           label: "View on IEEE Xplore",
-          url: "https://ieeexplore.ieee.org",
+          url: "https://www.researchgate.net/publication/341806905_Understanding_the_need_for_machine_learning_as_a_solution_for_financial_analysis_of_IT_industries",
         },
       ],
     },
@@ -24,11 +24,11 @@ export default function Publications() {
       links: [
         {
           label: "View on Springer",
-          url: "https://springer.com",
+          url: "https://link.springer.com/chapter/10.1007/978-3-031-28183-9_13",
         },
         {
           label: "View on Google Scholar",
-          url: "https://scholar.google.com",
+          url: "https://scholar.google.com/citations?user=y_ltsh4AAAAJ&hl=en",
         },
       ],
     },

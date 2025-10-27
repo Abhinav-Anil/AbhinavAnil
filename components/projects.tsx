@@ -36,6 +36,32 @@ export default function Projects() {
       metrics: ["97% Precision", "Predictive Analytics", "Operations Planning"],
       tags: ["Time-Series", "Forecasting", "Analytics"],
     },
+    {
+      title: "Genomic Analysis for Phenotype Prediction",
+      description: "Predict phenotypes behaviour from genotype data by analyzing chromosomal sequences",
+      metrics: ["75% Precision", "Predictive Analytics", "Operations Planning"],
+      tags: ["Genotype", "Phenotype","Forecasting", "Analytics"],
+    },
+
+    {
+      title: "Intruder Detection using CCTV Cameras",
+      description: "Developed a real-time surveillance system enabling automated intrusion detection and alert generation for continuous monitoring.",
+      metrics: ["24/7 Surveillance", "Real-Time Alerting", "Automated Threat Detection"],
+      tags: ["mobilenet-ssd", "OpenCV", "GStreamer", "Deep Learning", "Object Detection"],
+    },
+    {
+      title: "Visual Inspection of Car Door Window Assembly",
+      description: "Automated defect detection and quality inspection in car door assemblies using deep learning and template matching techniques.",
+      metrics: ["99.8% Accuracy", "Reduced Manual Inspection", "Improved Consistency"],
+      tags: ["Anomaly Detection", "Deep Learning", "Template Matching", "OpenCV"],
+    },
+    {
+      title: "Dimensional Measurements using CAD Integration",
+      description: "Enabled precise 2D image measurements correlated with 3D CAD models for improved manufacturing accuracy.",
+      metrics: ["30–50 Micron Accuracy", "Precision Measurement", "Workflow Optimization"],
+      tags: ["FreeCAD", "STEP Files", "IGES Files", "OpenCV", "Pillow", "PyQT"],
+    },
+
   ]
 
   return (
